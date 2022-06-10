@@ -1796,7 +1796,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #d5d5f0;
+		color: #3a3af1;
 		font-size: 3.5em;
 	}
 
@@ -1859,7 +1859,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #ff9966;
+			border-color: #ccbdf1;
 		}
 
 	select {
