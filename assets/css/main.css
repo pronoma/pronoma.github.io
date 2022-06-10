@@ -2870,7 +2870,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #ff7733;
+					border-top: solid 2px #3a3af1;
 					display: block;
 					padding: 0;
 				}
@@ -2889,7 +2889,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #ff9966 !important;
+							color: #3a3af1 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -3157,7 +3157,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #ff9966;
+						background: #3a3af1;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
