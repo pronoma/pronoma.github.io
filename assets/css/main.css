@@ -67,7 +67,7 @@ body {
 }
 
 mark {
-	background-color: #3a3af1;
+	background-color: #d5d5f0;
 	color: inherit;
 }
 
@@ -122,13 +122,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: solid 1px #e4e4e4;
-		color: #3a3af1;
+		color: #d5d5f0;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #3a3af1 !important;
+			color: #d5d5f0 !important;
 		}
 
 	strong, b {
@@ -1796,7 +1796,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #ff9966;
+		color: #d5d5f0;
 		font-size: 3.5em;
 	}
 
@@ -2801,7 +2801,7 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #ffccb3;
+			color: #3a3af1;
 		}
 
 		#header a {
