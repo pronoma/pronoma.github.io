@@ -67,7 +67,7 @@ body {
 }
 
 mark {
-	background-color: #ff9966;
+	background-color: #3a3af1;
 	color: inherit;
 }
 
@@ -128,7 +128,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ff9966 !important;
+			color: #3a3af1 !important;
 		}
 
 	strong, b {
@@ -1964,7 +1964,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #ff9966;
+			border-color: #3a3af1;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2637,14 +2637,14 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #ff7733;
+				background-color: #3a3af1;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #ff661a;
+				background-color: #3a3af1;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
