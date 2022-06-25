@@ -2193,12 +2193,12 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2.25em 0;
-			width: 200%;
+			width: 100%;
 		}
 
 			.image.fit img {
 				display: block;
-				width: 200%;
+				width: 100%;
 			}
 
 		.image.avatar {
@@ -2209,12 +2209,13 @@ input, select, textarea {
 			.image.avatar img {
 				border-radius: 100%;
 				display: block;
-				width: 200%;
+				width: 100%;
+				height: auto
 			}
 
 		.image.main {
 			display: block;
-			height: 20em;
+			height: auto; /*20em*/
 			border-radius: 0;
 		}
 
