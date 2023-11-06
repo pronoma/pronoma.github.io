@@ -35,8 +35,8 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Experience</a></li>
-						<li><a href="#three">Projects</a></li>
+						<li><a href="#two">Ongoing Research</a></li>
+						<li><a href="#three">Past Projects</a></li>
 						<li><a href="#four">Teaching & Mentoring</a></li>
 						<li><a href="#five">Blog</a></li> 
 					</ul>
@@ -71,7 +71,7 @@
 										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p> -->
 									</header>
 									<p>Hi! I am a research assistant at <a href = https://oden.utexas.edu>Oden Institute of Computational Engineering and Sciences</a> at the University of Texas at Austin. I am advised by <a href=https://www.cs.utexas.edu/~bajaj/cvc/index.shtml>Prof. Chandrajit Bajaj</a> and have wonderful friends and collaborators at the <a href=https://cvc-lab.github.io/cvc-website>Computational Visualization Center</a>. This is also part of my 5th year thesis of my undergraduate in B.E. Computer Science and Integrated MSc. Mathematics from BITS Pilani, Goa. </p>
-									<p>These days I have been working on <i>a) RL-based neural network training</i> and <i>Molecular dynamics and hydrogen-bond prediction in protein chains</i>. I am recently exploring probabilistic dynamic models and the intersection of Gaussian processes with RL. I'm curious about how RL methods can improve data selection and sample efficiency in existing deep learning models, all options do they open up and how we can formulate them in the best way. Feel free to reach out to me in case you are interested in this too!. 
+									<p>These days I have been working on <i>a) RL-based neural network training</i> and <i>b) Molecular dynamics and hydrogen-bond prediction in protein chains</i>. I am recently exploring probabilistic dynamic models and the intersection of Gaussian processes with RL. I'm curious about how RL methods can improve data selection and sample efficiency in existing deep learning models, all options do they open up and how we can formulate them in the best way. Feel free to reach out to me in case you are interested in this too!. 
 										</p>
 		
 									<p>During my last 2 years at BITS, I was a part of <a href= https://web.bits-pilani.ac.in/APPCAIR/index.html>APPCAIR</a>, BITS Pilani, mentored by <a href= https://www.bits-pilani.ac.in/goa/snehanshu-saha>Snehanshu Saha</a>. Here I researched on correcting the likelihood misspecification of models via generative adversarial networks, with the aid of approximate Bayesian inference. This made several well known regressors much more robust to noise. I have also spent some wonderful summers interning at <a href=https://graphics.iiitd.edu.in>Graphics Research Group, IIIT Delhi</a> with <a href= https://www.iiitd.ac.in/ojaswa>Dr. Ojaswa Sharma</a> and at Indian Statistical Institute, Kolkata with <a href= https://scholar.google.co.in/citations?user=PEDk2XQAAAAJ&hl=en>Prof. Shubhamoy Maitra</a>.</p>
@@ -143,51 +143,37 @@
 						<!-- Two -->
 							<section id="two">
 								<div class="container">
-									<h3>Experience</h3>
+									<h3>Ongoing research</h3>
 									<div class="features">
 										<article>
-											<a href="#" class="image"><img src="images/UT.png" alt="" /></a>
+											<!-- <a href="#" class="image"><img src="images/UT.png" alt="" /></a> -->
 											<div class="inner">
-												<h4>Research Engineering/Scientist Associate @ UT Austin</h4>
-												<h5>Since June 2023</h5>
+												<h4>Reinforcement Learning for Neural Network training</h4>
+												<h5>Pronoma Banerjee, Taemin Heo, Chandrajit Bajaj</h5>
 												<p>
-												Projects:
-													1. Continually learning to optimally climb the drug discovery mountain
-													2. Sample efficient POMDP for Progressive, Robust Surface Reconstruction
+													Replacing conventional gradient descent based optimizers such as stochastic gradient descent, mini-batch gradient descent and ADAM with RL and policy based parameter learning and optimization. Trying the idea with trust region policy optimization, proximal policy optimization and soft actor-critic frameworks. Applying a new framework called optimal control gradient flow for the same.
 												</p>
 
-												<h4>Research Intern @ UT Austin</h4>
-												<h5>June 2022 to January 2023</h5>
-												<p>
-												Projects:
-													1. Stackelberg framework on actor-critic RL algorithm
-													2. Hyperspectral-multispectral super-resolution using graph-Laplacian regularization
-												</p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/IIITD.png" alt="" /></a>
+											<!-- <a href="#" class="image"><img src="images/IIITD.png" alt="" /></a> -->
 											<div class="inner">
-												<h4>Research Intern @ IIIT Delhi</h4>
-												<h5>May 2021 to July 2021</h5>
-												<p>Worked under the guidance of <a href =  https://scholar.google.co.in/citations?user=jikZgTsAAAAJ&hl=en>Dr. Ojaswa Sharma</a> at the <a href= "https://graphics.iiitd.edu.in/">Graphics Research Group</a> at IIIT Delhi. Performed various kinds of deformable volumetric registration to align the CT and MRI volumes to cryo-sectioned volumes, as part of a larger project on building a Virtual Endoscopy system. <a href =  https://drive.google.com/file/d/1c7ean2OhnEv7VoW8lJQAY2pcZnNvFXQP/view=en>(Report)</a><a href =  https://github.com/pronoma/Dataset-processing>(GitHub)</a></p>
+												<h4>Learning a hydrogen-bond predictor in protein chains using RL													
+													</h4>
+												<h5>Pronoma Banerjee, Aditya Sai Ellendula, Taemin Heo, Chandrajit Bajaj</h5>
+												<p>Learning an RL based soft classifier to learn acceptor-donor atoms for formation of hydrogen bonds in protein chains, while in motion and while interacting with other molecules.</p>
 											</div>
 										</article>										
 										<article>
-											<a href="#" class="image"><img src="images/Swecha.png" alt="" /></a>
-											<div class="inner">
-												<h4>SDE intern @ Swecha</h4>
-												<h5>June 2021 to July 2021</h5>
-												<p>Worked on the ML aspects involved in building a fake news detector app and web-extension from scratch, along with a group of enthusiatic software developers. <a href =  https://code.swecha.org/webext/fakenewsdetector>(GitLab)</a></p>
-											</div>
-										</article>
-										<article>
 											<a href="#" class="image"><img src="images/ISI.png" alt="" /></a>
 											<div class="inner">
-												<h4>Research Intern @ ISI Kolkata</h4>
-												<h5>June 2020 to July 2020</h5>
-												<p>Worked under the supervision of <a href="https://scholar.google.co.in/citations?user=PEDk2XQAAAAJ&hl=en">Dr. Subhamoy Maitra</a> at ISI Kolkata. Designed quantum tic-tac-toe on a classical environment. Calculated the probabilities of winning, in different states of the
-													board, applying different strategies. Tried developing a subgame perfect Nash Equilibrium for the game. <a href =  https://github.com/pronoma/Quantum-classical-tic-tac-toe>(GitHub)</a></p>
+												<h4>Correcting Model Misspecification via Generative Adversarial Networks</h4>
+												<h5>Pronoma Banerjee, Manasi Gude, Rajvi Sampat, Sharvari Hedaao, Snehanshu Saha, Soma Dhavala</h5>
+												<h5><i>Under Review</i>, <a href=https://arxiv.org/abs/2304.03805>Preprint</a></h5>
+												<!-- <p>Worked under the supervision of <a href="https://scholar.google.co.in/citations?user=PEDk2XQAAAAJ&hl=en">Dr. Subhamoy Maitra</a> at ISI Kolkata. Designed quantum tic-tac-toe on a classical environment. Calculated the probabilities of winning, in different states of the -->
+													<!-- board, applying different strategies. Tried developing a subgame perfect Nash Equilibrium for the game. <a href =  https://github.com/pronoma/Quantum-classical-tic-tac-toe>(GitHub)</a></p> -->
+												<p>We developed a generative modeling paradigm called skipGAN which combines GANs and Approximate Bayesian Computing (ABC-GAN), with skip connections. The architecture aims at correcting likelihood misspecification in prior models. Our research demonstrated performance improvements in well-known priors like TabNet, CatBoost, and Stats model for regression tasks across various noisy datasets</p>
 											</div>
 										</article>
 									</div>
@@ -197,7 +183,7 @@
 							<!-- Three -->
 							<section id="three">
 								<div class="container">
-									<h3>Projects</h3>
+									<h3>Past Projects</h3>
 									<h3>  
 
 
@@ -207,7 +193,7 @@
 											<!-- <a href="#" class="image"><img src="images/synthbreeder.png" alt="" /></a> -->
 											<div class="inner">
 												<h4>SynthBreeder</h4>
-												<h5>Status: Active</h5>
+												<!-- <h5>Status: Archived</h5> -->
 												<p>Implementing the genetic algorithm on various setups of the modular synthesizer, called "organisms". Each organism produces a particular kind of sound. The organisms evolve by undergoing the graph-based processes of mutation and crossover, and natural selection, resulting in changes in connections and setups, evolving from fragments of sound to a section of a musical piece.    </p>
 											</div>
 										</article>	
@@ -216,7 +202,7 @@
 											<!-- <a href="#" class="image"><img src="images/abc-gan.png" alt="" /></a> -->
 											<div class="inner">
 												<h4>ABC-GAN</h4>
-												<h5>Status: Active</h5>
+												<h5>Status: Archived</h5>
 												<p> Working on a generative modeling paradigm called skipGAN which combines GANs and Approximate Bayesian Computing (ABC-GAN), with skip connections. The architecture aims at correcting likelihood misspecification in prior models. Currently trying to implement our model on TabNet, CatBoost and Stats Model priors, using several synthetic and real-life datasets.
 												</p>
 											</div>
@@ -226,18 +212,10 @@
 											<!-- <a href="#" class="image"><img src="images/SAiDL.jpeg" alt="" /></a> -->
 											<div class="inner">
 												<h4>Adversarial Deep Learning</h4>
-												<h5>Status: Archived</h5>
+												<!-- <h5>Status: Archived</h5> -->
 												<p>Contributed actively to the implementations of the various computer vision models, adversarial attacks and defenses on MNIST-10 and CIFAR-10, using PyTorch. This project is a part of a book being written on the same to document all the research that has been done in this field.</p>
 											</div>
 										</article>										
-										<article>
-											<!-- <a href="#" class="image"><img src="images/brain-tumor.png" alt="" /></a> -->
-											<div class="inner">
-												<h4>Brain Tumor Radiogenic Classification</h4>
-												<h5>Status: Archived</h5>
-												<p>Worked on building an interpretable model to detect glioblastoma from mpMRI scans obtained from the RSNA-MICCAI 2021 challenge on the same, hosted on Kaggle.</p>
-											</div>
-										</article>
 									</div>
 								</div>
 							</section>
